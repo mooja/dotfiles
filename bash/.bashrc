@@ -116,9 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# autojump
-. /usr/share/autojump/autojump.sh
-
 # set editor for tmuxinator
 export EDITOR='vim'
 
