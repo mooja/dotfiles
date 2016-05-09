@@ -61,9 +61,6 @@ set mouse=a
 
 " Eye candy stuff
 set t_Co=256
-colo molokai
-let g:rehash256 = 1
-let g:molokai_original = 1
 
 let mapleader = ","
 
