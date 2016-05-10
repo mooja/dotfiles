@@ -1,14 +1,22 @@
 " disable original vi compataiblity
-set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 set nocompatible
-
-" pathogen
-execute pathogen#infect()
-syntax on
 filetype plugin indent on
 
-" CUSTOM SETTINGS BEGIN #######################################################
-"
+" plugins
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://github.com/ctrlpvim/ctrlp.vim'
+Plug 'https://github.com/tpope/vim-sensible'
+Plug 'https://github.com/tpope/vim-commentary'
+Plug 'https://github.com/tpope/vim-fugitive'
+Plug 'https://github.com/tpope/vim-surround'
+Plug 'https://github.com/tpope/vim-vinegar'
+Plug 'https://github.com/mattn/emmet-vim'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+
+" Add plugins to &runtimepath
+call plug#end()
+
 " no compatible
 " enable syntax highlighting
 syntax on
