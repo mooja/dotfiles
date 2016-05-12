@@ -13,6 +13,7 @@ Plug 'https://github.com/tpope/vim-surround'
 Plug 'https://github.com/tpope/vim-vinegar'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " Add plugins to &runtimepath
 call plug#end()
@@ -51,13 +52,12 @@ set softtabstop=4
 set ai " autoindent
 
 " don't clutter current directory with temp files 
-set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
+" set backup
+" set backupdir=~/.vim/backup
+" set directory=~/.vim/tmp
 
 " add plugin documentation directory to path"
-set path+='~/.vim/doc/'
-
+set path+='~/.vim/doc/' 
 " viminfo
 set viminfo="~/.viminfo"
 set modeline
@@ -91,6 +91,7 @@ noremap I ^
 command W w !sudo tee % > /dev/null
 
 noremap <Leader>k :edit .<Return>
+noremap <F7> :NERDTreeToggle<Return>
 
 " CUSTOM MAPPINGS END ##########################################################
 
