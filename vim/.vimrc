@@ -14,6 +14,8 @@ Plug 'https://github.com/tpope/vim-vinegar'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'digitaltoad/vim-pug'
+Plug 'FooSoft/vim-argwrap'
 
 " Add plugins to &runtimepath
 call plug#end()
@@ -104,3 +106,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-K>"
 
 " yaml shiftwidth
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+
+" arg wrap mapping
+nnoremap <silent> <leader>a :ArgWrap<CR>
