@@ -70,7 +70,7 @@ set wildmode=list:longest,full
 set mouse=a
 
 " Eye candy stuff
-set t_Co=256
+" set t_Co=256
 colorscheme desert
 
 let mapleader = ","
@@ -109,3 +109,7 @@ au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 " arg wrap mapping
 nnoremap <silent> <leader>a :ArgWrap<CR>
+
+" ignore .git for ctrlp
+set wildignore+=*/.git/*,*/node_modules/* 
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|node_modules)$'
