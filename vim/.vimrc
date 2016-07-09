@@ -71,7 +71,8 @@ set mouse=a
 
 " Eye candy stuff
 " set t_Co=256
-colorscheme desert
+colorscheme gruvbox
+set background=dark
 
 let mapleader = ","
 
