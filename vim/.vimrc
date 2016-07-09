@@ -107,6 +107,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-K>"
 
 " yaml shiftwidth
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+au FileType javascript setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 " arg wrap mapping
 nnoremap <silent> <leader>a :ArgWrap<CR>
