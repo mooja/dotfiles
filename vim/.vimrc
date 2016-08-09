@@ -5,13 +5,13 @@ filetype plugin indent on
 " plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'https://github.com/ctrlpvim/ctrlp.vim'
-Plug 'https://github.com/tpope/vim-sensible'
-Plug 'https://github.com/tpope/vim-commentary'
-Plug 'https://github.com/tpope/vim-fugitive'
-Plug 'https://github.com/tpope/vim-surround'
-Plug 'https://github.com/tpope/vim-vinegar'
-Plug 'https://github.com/mattn/emmet-vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-vinegar'
+Plug 'mattn/emmet-vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'digitaltoad/vim-pug'
