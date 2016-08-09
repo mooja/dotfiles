@@ -59,7 +59,7 @@ set fileformats+=mac " end of lines format (default is unix)
 set history=1000 " default of 20 is too low
 
 set incsearch " live incremental search 
-set hlsearch " highlight matching search text
+set nohlsearch " highlight matching search text
 set ignorecase " ignore case when searching
 set smartcase
 
