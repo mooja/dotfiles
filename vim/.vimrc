@@ -21,6 +21,12 @@ Plug 'christoomey/vim-tmux-navigator'
 " updated js syntax
 Plug 'othree/yajs.vim'
 
+" rust syntax
+Plug 'rust-lang/rust.vim'
+
+" toml syntax
+Plug 'cespare/vim-toml'
+
 " theme
 let g:gruvbox_italic=1
 Plug 'morhetz/gruvbox'
