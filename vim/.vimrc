@@ -16,7 +16,6 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'digitaltoad/vim-pug'
 Plug 'FooSoft/vim-argwrap'
-Plug 'christoomey/vim-tmux-navigator'
 
 " updated js syntax
 Plug 'othree/yajs.vim'
@@ -30,6 +29,12 @@ Plug 'cespare/vim-toml'
 " theme
 let g:gruvbox_italic=1
 Plug 'morhetz/gruvbox'
+
+" syntastic
+Plug 'scrooloose/syntastic'
+
+" YCM
+Plug 'Valloric/YouCompleteMe'
 
 " Add plugins to &runtimepath
 call plug#end()
