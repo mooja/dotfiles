@@ -127,10 +127,12 @@ let g:UltiSnipsJumpBackwardTrigger="<c-K>"
 " yaml shiftwidth
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 au FileType javascript setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+au FileType scss setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+au FileType css setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 " arg wrap mapping
 nnoremap <silent> <leader>a :ArgWrap<CR>
 
-" ignore .git for ctrlp
+" ignore .git/node_modules for ctrlp
 set wildignore+=*/.git/*,*/node_modules/* 
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|node_modules)$'
