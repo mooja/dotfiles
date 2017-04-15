@@ -131,9 +131,13 @@ export PATH="$HOME/.node_modules_global/bin:$PATH"
 
 # custom aliases
 alias r='ranger'
+alias t='tmux'
 alias g='git'
 alias gs='git status'
 alias mux='tmuxinator'
+alias weather='curl wttr.in/12401'
+
+
 
 # customer colors
 
