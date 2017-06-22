@@ -144,8 +144,7 @@ alias g='git'
 alias gs='git status'
 alias mux='tmuxinator'
 alias weather='curl wttr.in/12401'
-
-
+alias d='docker'
 
 # customer colors
 
