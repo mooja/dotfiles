@@ -10,21 +10,9 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-vinegar'
 Plug 'mattn/emmet-vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'digitaltoad/vim-pug'
 Plug 'FooSoft/vim-argwrap'
-
-" updated js syntax
-Plug 'othree/yajs.vim'
-
-" rust syntax
-Plug 'rust-lang/rust.vim'
-
-" toml syntax
-Plug 'cespare/vim-toml'
 
 " theme
 let g:gruvbox_italic=1
