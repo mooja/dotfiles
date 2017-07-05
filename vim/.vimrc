@@ -12,6 +12,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'mattn/emmet-vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+let g:UltiSnipsSnippetDirectories=['Ultisnips', 'my_snippets']
 Plug 'FooSoft/vim-argwrap'
 
 " theme
