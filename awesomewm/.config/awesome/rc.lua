@@ -545,8 +545,9 @@ client.connect_signal("mouse::enter", function(c)
 end)
 
 awful.util.spawn("nm-applet")
-awful.util.spawn("redshift-gtk")
+-- awful.util.spawn("redshift-gtk")
 awful.util.spawn("setxkbmap -option ctrl:nocaps")
+awful.util.spawn("gnome-session")
 awful.util.spawn("dropbox start")
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
