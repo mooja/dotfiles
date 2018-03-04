@@ -137,6 +137,11 @@ export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 # end node stuff
 
+
+# yarn stuff
+export PATH="$HOME/.yarn/bin:$PATH"
+
+
 # custom aliases
 alias r='ranger'
 alias t='tmux'
