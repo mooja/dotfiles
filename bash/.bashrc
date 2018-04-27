@@ -150,3 +150,7 @@ alias gs='git status'
 alias mux='tmuxinator'
 alias weather='curl wttr.in/12401'
 alias d='docker'
+
+
+# .local/bin stuff
+export PATH="~/.local/bin:$PATH"
