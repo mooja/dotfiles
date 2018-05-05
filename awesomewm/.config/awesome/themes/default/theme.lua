@@ -1,8 +1,11 @@
 ---------------------------
 -- Default awesome theme --
 ---------------------------
+--
 
 local theme = {}
+
+theme.wallpaper = "~/Dropbox/wallpapers/xps13.jpg"
 
 theme.font          = "sans 13"
 
@@ -18,9 +21,9 @@ theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
 theme.useless_gap   = 0
-theme.border_width  = 1
+theme.border_width  = 2
 theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
+theme.border_focus  = "#DB7093"
 theme.border_marked = "#91231c"
 
 -- There are other variable sets
@@ -77,7 +80,6 @@ theme.titlebar_maximized_button_focus_inactive  = "/usr/share/awesome/themes/def
 theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "~/Dropbox/wallpapers/mosaic.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
