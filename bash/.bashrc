@@ -121,10 +121,8 @@ fi
 
 # set editor for tmuxinator
 export EDITOR='vim'
+source /usr/share/bash-completion/completions/tmuxinator
 
-# virtualenvwrapper
-export WORKON_HOME=~/venvs/
-export PROJECT_HOME=~/projects/
 
 # node stuff
 export NPM_PACKAGES="$HOME/.npm-packages"
@@ -152,5 +150,9 @@ alias weather='curl wttr.in/12401'
 alias d='docker'
 
 
-# .local/bin stuff
-export PATH="~/.local/bin:$PATH"
+# rust path
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# pip 
+
+export PATH="$HOME/.local/bin:$PATH"
