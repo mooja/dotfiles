@@ -139,6 +139,17 @@ export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 # yarn stuff
 export PATH="$HOME/.yarn/bin:$PATH"
 
+# exercism completions
+source ~/.config/exercism/exercism_completion.bash
+
+# pip 
+export PATH="$HOME/.local/bin:$PATH"
+
+# pyenv
+export PATH="/home/mooja/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 
 # custom aliases
 alias r='ranger'
@@ -148,11 +159,3 @@ alias gs='git status'
 alias mux='tmuxinator'
 alias weather='curl wttr.in/12401'
 alias d='docker'
-
-
-# rust path
-export PATH="$HOME/.cargo/bin:$PATH"
-
-# pip 
-
-export PATH="$HOME/.local/bin:$PATH"
