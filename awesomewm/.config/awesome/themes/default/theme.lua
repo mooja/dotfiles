@@ -5,7 +5,7 @@
 
 local theme = {}
 
-theme.wallpaper = "~/Dropbox/wallpapers/xps13.jpg"
+theme.wallpaper = "~/Dropbox/wallpapers/river.jpg"
 
 theme.font          = "sans 13"
 
