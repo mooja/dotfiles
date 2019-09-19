@@ -159,3 +159,6 @@ alias gs='git status'
 alias mux='tmuxinator'
 alias weather='curl wttr.in/12401'
 alias d='docker'
+
+# syncthing gui
+alias st='syncthing -browser-only'
