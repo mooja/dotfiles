@@ -236,6 +236,8 @@ root.buttons(awful.util.table.join(
 
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
+    awful.key({ modkey,           }, "b", function () awful.spawn("firefox") end,
+              {description = "launch firefox", group = "launcher"}),
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
@@ -545,7 +547,7 @@ client.connect_signal("mouse::enter", function(c)
 end)
 
 awful.util.spawn("nm-applet")
--- awful.util.spawn("redshift-gtk")
+awful.util.spawn("/home/mooja/bin/launch-reshift.sh")
 awful.util.spawn("setxkbmap -option ctrl:nocaps")
 awful.util.spawn("dropbox start")
 awful.util.spawn("/usr/lib/gnome-settings-daemon/gsd-xsettings")
